@@ -1,0 +1,37 @@
+=============== Apr 6, 2021 (PDT) ===============
+13:41:45.685749 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:41:45.695724 db@open opening
+13:41:45.698716 version@stat F·[] S·0B[] Sc·[]
+13:41:45.706246 db@janitor F·2 G·0
+13:41:45.706246 db@open done T·10.5224ms
+13:41:45.725088 db@close closing
+13:41:45.725593 db@close done T·505.1µs
+=============== Apr 6, 2021 (PDT) ===============
+13:45:42.021341 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:42.022474 version@stat F·[] S·0B[] Sc·[]
+13:45:42.022979 db@open opening
+13:45:42.023079 journal@recovery F·1
+13:45:42.037237 journal@recovery recovering @1
+13:45:42.044194 memdb@flush created L0@2 N·21 S·1KiB "\b\x01\x81..\xbd.q,v8":"\xfb=\x85..\x83\x90#,v6"
+13:45:42.063724 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+13:45:42.082193 db@janitor F·3 G·0
+13:45:42.082193 db@open done T·59.1137ms
+13:45:42.248086 table@compaction range L-1 "a":"b"
+13:45:42.248086 table@compaction L0·1 -> L1·0 S·1KiB Q·27
+13:45:42.254075 table@build created L1@5 N·21 S·1KiB "\b\x01\x81..\xbd.q,v8":"\xfb=\x85..\x83\x90#,v6"
+13:45:42.254075 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+13:45:42.260879 table@compaction committed F~ S~ Ke·0 D·0 T·12.7926ms
+13:45:42.264992 table@compaction range L-1 "o":"p"
+=============== Apr 6, 2021 (PDT) ===============
+13:47:50.505326 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:50.506949 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+13:47:50.506949 db@open opening
+13:47:50.507755 journal@recovery F·1
+13:47:50.519882 journal@recovery recovering @3
+13:47:50.528073 memdb@flush created L0@6 N·13 S·850B "Dat..ion,v23":"unc..own,v35"
+13:47:50.544887 version@stat F·[1 1] S·2KiB[850B 1KiB] Sc·[0.25 0.00]
+13:47:50.561345 db@janitor F·5 G·1
+13:47:50.561849 db@janitor removing table-2
+13:47:50.561903 db@open done T·54.9538ms
+14:12:59.694947 db@close closing
+14:12:59.695450 db@close done T·503.6µs
