@@ -35,15 +35,16 @@ Procedure for POA transaction:
 - Select 2 on the next prompt for 'Export Genesis Configurations' option and press enter
 - Exit puppeth using Ctrl+C keys
 - The above puppeth configuration is shown in the example picture below:
-  ![puppeth_config1](https://user-images.githubusercontent.com/74274975/113789187-87882d00-96f3-11eb-8491-e83dc8a92a53.PNG)
-  ![puppeth_config2](https://user-images.githubusercontent.com/74274975/113789212-91aa2b80-96f3-11eb-935d-f8c020c29c8c.PNG)
+  ![puppeth_config1](https://user-images.githubusercontent.com/74274975/113791808-4c88f800-96f9-11eb-81a7-1b972eccecbb.PNG)
+  ![puppeth_config2](https://user-images.githubusercontent.com/74274975/113791818-514dac00-96f9-11eb-8998-ccef7bfcb400.PNG)
 
 Working on the Blockchain:
 - Initialize the nodes using the following geth command
      - geth.exe init networkname.json --datadir node1
      - geth.exe init networkname.json --datadir node2
      - Make sure it shows success as indicated in the example picture below
-     ![node5 initialization](https://user-images.githubusercontent.com/74274975/113789660-67a53900-96f4-11eb-9079-d10097f59637.PNG)
+     ![node5 initialization](https://user-images.githubusercontent.com/74274975/113791612-e8feca80-96f8-11eb-9783-4eaffbf70bac.PNG)
+     
 - Launch the node to mining using the command:
      - geth.exe --datadir node1 --mine --miner.threads 1 --unlock "node1-address" --password node1/password.txt  --rpc --allow-insecure-unlock
      - Copy and save the enode:// values from node1. It is found on 'Started P2P Networking' line 
